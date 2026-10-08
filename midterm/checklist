@@ -1,0 +1,19 @@
+CS631 midterm - ls(1) - checklist
+=================================
+Hãy thay/bổ sung file này bằng mẫu checklist của môn học nếu cần.
+
+[x] Code nằm trong thư mục "midterm" của git repository
+[x] Nhiều file .c với header riêng (ls.c, cmp.c, print.c, util.c)
+[x] Makefile có các target all / clean (và test)
+[x] Biên dịch không cảnh báo (-Wall -Wextra -Wpedantic)
+[x] README mô tả thiết kế, cách hiểu man page và phần KIỂM THỬ
+[x] Cài đặt đủ các option: -A -a -c -d -F -f -h -i -k -l -n -q -R -r -S -s -t -u -w
+[x] Option xung đột: cái đứng cuối thắng
+[x] Exit status 0 khi thành công, >0 khi lỗi; lỗi ghi ra stderr
+[x] Không dùng buffer cố định cho đường dẫn/tên (cấp phát động, snprintf)
+[x] Kiểm tra giá trị trả về của mọi system call (lstat, stat, opendir, readdir, readlink)
+[x] Không rò rỉ bộ nhớ / lỗi bộ nhớ (đã kiểm tra bằng ASan/UBSan)
+[x] Không hard-code đường dẫn, không dùng system(3) hay gọi ls của hệ thống
+[x] Chỉ dùng man page đề cung cấp làm tài liệu tham khảo
+[ ] Đã lưu git log vào LOG (git log > LOG) trước khi tạo file tar
+[ ] File tar tên ${USER}-midterm.tar giải nén ra thư mục ${USER}/
