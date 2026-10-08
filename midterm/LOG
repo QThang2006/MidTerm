@@ -1,0 +1,23 @@
+commit 1ca2a0f2d454243dc59da54a7a589f8840f11609
+Author: Ngo Quoc Thang <quocthangngo2006@gmail.com>
+Date:   Thu Oct 8 14:58:36 2026 +0700
+
+    midterm: add tests, README and checklist
+
+commit 4d2f31b66b767aee845cd469eaf2829cbd25720c
+Author: Ngo Quoc Thang <quocthangngo2006@gmail.com>
+Date:   Thu Oct 8 14:58:17 2026 +0700
+
+    midterm: add output formatting
+
+commit 6e72efb1a06867f1dd1c35795c940cf8ef13f964
+Author: Ngo Quoc Thang <quocthangngo2006@gmail.com>
+Date:   Thu Oct 8 14:58:17 2026 +0700
+
+    midterm: add sorting and helper modules
+
+commit be44a62ba77d3fdc24f22f1b9c3d4f924debf7f1
+Author: Ngo Quoc Thang <quocthangngo2006@gmail.com>
+Date:   Thu Oct 8 14:58:17 2026 +0700
+
+    midterm: add Makefile and main program
